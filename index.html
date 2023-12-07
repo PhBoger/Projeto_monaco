@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monaco Viagens</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Monaco viagens</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class=" nav-link fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Monaco</a>
+                    </li>
+                    <li class=" nav-link fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Trifeta de excelência
+                        </a>
+                    </li>
+                    <li class=" nav-link fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            O que temos a oferecer :
+                        </a>
+                    </li>
+                    <li class=" nav-link fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/monaco-2209822 (1) (1).jpg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/monaco-3003996_1920 (1).jpg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/monaco-4564079_1920 (2).jpg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/images/street-3216562_1920.jpg" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">Monaco</span></h2>
+                            <p>Mônaco, localizado na Riviera Francesa, destaca-se por sua opulência e glamour em uma área compacta. Reconhecido pelo Cassino Monte Carlo e pelo prestigioso Grande Prêmio de Fórmula 1, o principado atrai a elite global. Com lojas luxuosas, iates e arquitetura deslumbrante, Mônaco reflete riqueza e sofisticação. O Palácio do Príncipe oferece uma perspectiva histórica, enquanto o status de centro financeiro, sem imposto de renda, atrai residentes em busca de benefícios fiscais. Em seu pequeno território, Mônaco representa elegância e prosperidade, consolidando-se como um destino exclusivo.</p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>Mônaco, um microestado no Mediterrâneo, é famoso por sua riqueza, cassinos e o Grande Prêmio de Fórmula 1. Com apenas 2 km², é um enclave glamouroso e financeiro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasioes</span></h2>
+                </div>
+                <div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img src="/images/gp-monaco-1.jpg" class="d-block w-100 rounded mb-2" >
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-bug"></i>
+                                Formula 1</h3>
+                            <p>
+                                O circuito de Fórmula 1 em Mônaco é famoso por suas ruas estreitas, túneis e curvas desafiadoras ao longo de 3,3 km. Sendo o traçado mais curto, destaca-se pela exigência técnica e dificuldade de ultrapassagens. O Grande Prêmio de Mônaco, envolto em elegância e glamour, é um dos eventos mais prestigiados do calendário da F1.
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images/car-3262034_1920.jpg" class="d-block w-100 rounded mb-2" >
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-car-front-fill"></i>
+                                Carros de luxo
+                            </h3>
+                            <p>Os luxuosos carros em Mônaco refletem um estilo de vida elegante. As estreitas e sinuosas ruas do principado são perfeitas para exibir supercarros de marcas prestigiosas. Entre o cenário glamoroso e as curvas desafiadoras, os carros de luxo tornam-se uma atração, complementando o charme exclusivo de Mônaco.
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images/Depositphotos_87206764_l-2015.jpg" class="d-block w-100 rounded mb-2" >
+                            <h3 class="section-title text-colored fs-4'">
+                                <i class="bi bi-cup-fill"></i>
+                                Culinaria</h3>
+                            <p>A culinária de Mônaco é uma fusão sofisticada de influências francesas e mediterrâneas. Frutos do mar frescos, azeite de oliva e ervas aromáticas são destaque. Restaurantes renomados oferecem pratos refinados, enquanto mercados locais apresentam iguarias regionais. A gastronomia em Mônaco combina elegância com sabores autênticos.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Lugares de<span class="text-colored"> Monaco</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-columns nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aluguel_de_carros"  class="fw-bold text-start nav-link text-colored active">Aluguel de Carros</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#restaurantes"  class="fw-bold text-start nav-link text-colored ">Restaurantes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hotel"  class="fw-bold text-start nav-link text-colored ">Hoteis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pontos_turisticos"  class="fw-bold text-start nav-link text-colored ">Pontos Turisticos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aluguel_de_carros">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_carros/2020_ferrari_f8_spider_1_1920x1080-800x500.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Ferrari F8 Spider</h5>
+                                        <p>Top Speed 340 km/h <div class="row">
+                                        </div>
+                                            <p>0-100 km/h	2.9 s, Engine V8 720 HP</p> <div class="row">
+                                            </div>
+                                            <div class="row"></div>
+                                            <p>1 Day Rate (250 KM incl. <strong>From 1,900 € </strong></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_carros/2020_ferrari_roma_47_1920x1080-1-800x500.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Ferrari Roma</h5>
+                                        <p>Top Speed 320 km/h</p><div class="row">
+                                        </div>
+                                            <p>0-100 km/h	3.4 s, Engine V8 620 HP</p> <div class="row">
+                                            </div>
+                                            <div class="row"></div>
+                                            <p>1 Day Rate (250 KM incl. <strong> 1,720 €</strong></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_carros/Ferrari-Portofino-M-1-800x500.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Ferrari Porto Fino M</h5>
+                                        <p>Top Speed 320 km/h</p><div class="row">
+                                        </div>
+                                            <p>0-100 km/h	3.5 s, Engine V8 620 HP</p> <div class="row">
+                                            </div>
+                                            <div class="row"></div>
+                                            <p>1 Day Rate (250 KM incl. <strong>From 1,720 € </strong></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_carros/2020_lamborghini_aventador_svj_roadster_1_1920x1080-1-800x500.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Lamborghini Aventador SVJ Roadster</h5>
+                                        <p>Top Speed 350 km/h</p><div class="row">
+                                        </div>
+                                            <p>0-100 km/h	2,9 s, Engine V12 770 HP</p> <div class="row">
+                                            </div>
+                                            <div class="row"></div>
+                                            <p>1 Day Rate (250 KM incl. <strong>From 4,150 € </strong></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_carros/huracan-evo-spyder-800x500.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Lamborghini Huracan EVO Spyder</h5>
+                                        <p>Top Speed 325 km/h</p><div class="row">
+                                        </div>
+                                            <p>0-100 km/h	3,1 s, Engine V10 640 HP</p> <div class="row">
+                                            </div>
+                                            <div class="row"></div>
+                                            <p>1 Day Rate (250 KM incl. <strong> From 1,720 € </strong> </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_carros/rolls-royce_dawn_64-800x500.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Rolls Royce Dawn</h5>
+                                        <p>Top Speed 250 km/h</p><div class="row">
+                                        </div>
+                                            <p>0-100 km/h	5,1 s, Engine V12 571 HP</p> <div class="row">
+                                            </div>
+                                            <div class="row"></div>
+                                            <p>1 Day Rate (250 KM incl. <strong>From 3,150 € </strong>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_carros/porsche_911_cabrio_1-1-800x500.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Porche 911 Carreira S
+                                        </h5>
+                                        <p>Top Speed 305 km/h</p><div class="row">
+                                        </div>
+                                            <p>0-100 km/h	4,3 s, Engine Flat 6 400 HP</p> <div class="row">
+                                            </div>
+                                            <div class="row"></div>
+                                            <p>1 Day Rate (250 KM incl. <strong>From 800 € </strong></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_carros/sl63amg2021-800x500.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Mercedes SL63 AMG</h5>
+                                        <p>Top Speed 315 km/h</p><div class="row">
+                                        </div>
+                                            <p>0-100 km/h	3,6 s, Engine V8 585 HP</p> <div class="row">
+                                            </div>
+                                            <div class="row"></div>
+                                            <p>1 Day Rate (250 KM incl. <strong>From 1,160 €</strong> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="restaurantes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_restaurantes/imagem_2022-08-03_201524475.png">
+                                        <h5 class="text-colored fw-bold mt-2">Coya</h5>
+                                        <p>Esse restaurante da rede já conhecida pelo mundo aplica a fórmula Peruvian/Asian, que dá muito certo e faz com que se coma muito bem!</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_restaurantes/hp-restaurant-louis-xv-monte-carlo-societe-bains-de-mer.jpeg.webp">
+                                        <h5 class="text-colored fw-bold mt-2">Le Louis XV</h5>
+                                        <p>O respeitado restaurante Le Louis XV, de Alain Ducasse, no l’Hôtel de Paris, tem 3 estrelas Michelin e nunca para de surpreender.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_restaurantes/Joel-Robuchon-MC3B4naco.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Joel Robuchon</h5>
+                                        <p>O restaurante Joel Robuchon Monte-Carlo de Mônaco fica em Monte-Carlo e é realmente muito fino.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_restaurantes/cafe-de-paris-monaco.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Cafe de Paris</h5>
+                                        <p>Com amplo espaço, o restaurante Café de Paris em Mônaco encanta seus visitantes diariamente. Tem mesas internas e externas, sendo que essas últimas são perfeitas para quem quer comer apreciando Mônaco e seu movimento</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://media-cdn.tripadvisor.com/media/photo-w/26/92/49/10/horizon-rooftop.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Horizon Rooftop</h5>
+                                        <p>elegante e sofisticado, oferece um refúgio exclusivo da agitação da cidade abaixo. Os hóspedes podem se deliciar com um delicioso menu inspirado na culinária moderna global. O local conta com um 'Infinity Bar' ao ar livre, onde os clientes podem desfrutar de bebidas e coquetéis exclusivos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://media-cdn.tripadvisor.com/media/photo-w/1d/26/1a/a8/restaurant-yoshi.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Yoshi</h5>
+                                        <p>Cozinha japonesa excepcionalmente sutil e inovadora. Em uma decoração de jardim japonês calmante, o restaurante - situado no coração do Hôtel Métropole Monte-Carlo - se distingue pelo seu ambiente zen e pratos saborosos e elegantes.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://media-cdn.tripadvisor.com/media/photo-w/1d/1e/ec/aa/new-terrasse-from-restaurant.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Pavyllon Monte-Carlo</h5>
+                                        <p>A comida gourmet de Yannick Alleno, que conquistou os habitantes sofisticados da cidade de Paris, agora tem uma filial no Hermitage Hotel em Monte Carlo, com as mesmas receitas infalíveis. Ou seja, pratos gourmet que afirmam audaciosamente uma identidade culinária distintamente não convencional.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="https://media-cdn.tripadvisor.com/media/photo-w/2a/27/af/e7/nikki-beach-monte-carlo.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Nikki Beach</h5>
+                                        <p>Relax in a beautiful, relaxing environment in the glamorous principality of Monaco, with stunning sunsets across the Mediterranean and world-class entertainment.
+                                            The extensive menu spans dishes representative of all the countries Nikki Beach is located in around the world including healthful salads, innovative sushi rolls, freshly caught seafood entrees and slow-roasted free range rotisserie chicken.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hotel">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_hoteis/1.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Fairmont Monte Carlo</h5>
+                                        <p>O Fairmont Monte Carlo é um hotel de 4 estrelas situado entre o Mar Mediterrâneo e o Casino de Monte Carlo, onde disponibiliza um terraço no último piso e vista para o Circuito do Mónaco. Providencia uma piscina exterior, 4 restaurantes e bares, um centro comercial, cabeleireiros, um centro de fitness e um spa.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="images/img_hoteis/2.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Paris Monte-Carlo</h5>
+                                        <p>Situado em um edifício de 1864, em Monte Carlo, ao lado do Cassino de Mônaco, o Hôtel de Paris dispõe de uma adega de vinhos. A propriedade oferece um piano bar em estilo americano e 2 restaurantes com vista da famosa Praça do Cassino.
+                                            Todos os quartos e suítes elegantemente decorados do Hôtel de Paris incluem TV de tela plana com canais via satélite e videogame. As acomodações contam ar-condicionado, frigobar e móveis de época.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="images/img_hoteis/3.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Le Méridien Beach Plaza</h5>
+                                        <p>O Le Méridien Beach Plaza oferece vista de Monte Carlo e do Mar Mediterrâneo. A praia privativa e as piscinas coberta e ao ar livre da propriedade são complementadas por uma série de restaurantes e bares 24 horas.
+                                            Os quartos do Le Méridien Beach Plaza possuem ar-condicionado e banheiro privativo. Todas as unidades contam com TV de tela plana a cabo.
+                                            A propriedade oferece serviço de alimentos e bebidas 24 horas em vários locais do hotel, que dispõem de vista panorâmica. O Alang Bar é um lounge ao ar livre relaxante, situado na praia privativa no local.
+                                            </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_hoteis/4.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Hermitage Monte-Carlo</h5>
+                                        <p>O Hôtel Hermitage Monte-Carlo está idealmente localizado a poucos passos da Praça do Casino e desfruta de uma localização fabulosa com vista para o Mediterrâneo, para a Rocha e para o Porto do Mónaco.
+                                            Construído no início dos anos 1900, a arquitetura Belle Epoque da propriedade apresenta a magnífica cúpula Eiffel localizada no Jardim de Inverno e projetada por Gustave Eiffel</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_hoteis/5.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Le Negresco</h5>
+                                        <p>OO Hotel Le Negresco está localizado em Nice e tem vista para a praia e para a Promenade des Anglais. Esta propriedade dispõe de Wi-Fi grátis e uma academia.
+                                            Todos os quartos e suítes apresentam decoração individual com móveis de época e possuem ar-condicionado. Os quartos também estão equipados com TV de tela plana e banheiro privativo.
+                                            Um buffet de café da manhã preparado na hora é servido diariamente no restaurante La Rotonde. Você pode desfrutar de lanches e bebidas no bar de estilo britânico. Além disso, você pode saborear refeições gourmet no restaurante Le Chantecler, premiado com estrela Michelin.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_hoteis/6.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Martinez, in The Unbound Collection by Hyatt</h5>
+                                        <p>Localizado na famosa La Croisette Boulevard, em Cannes, o 5 estrelas Hotel Martinez - in the Unbound Collection by Hyatt oferece uma área de praia privativa, acessível por um custo extra. Você pode desfrutar de refeições nos restaurantes do hotel e relaxar com uma bebida no Martinez Bar.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_hoteis/7.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Boscolo Nice Hotel & Spa</h5>
+                                        <p>
+                                            Localizado no centro de Nice, este hotel de estilo Belle Époque possui uma piscina interna. Os hóspedes têm acesso gratuito ao spa e centro de fitness de 500m². Também possui uma sala de bilhar e está situado a menos de 10 minutos a pé da Promenade des Anglais. O hotel é para não fumantes em todas as áreas.
+                                            Os quartos espaçosos são decorados em tons de branco e ouro e incluem ar-condicionado. Cada um oferece um minibar, WiFi gratuito e uma TV de tela plana com canais via satélite.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_hoteis/4.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Anantara Plaza</h5>
+                                        <p>dealmente situado no centro de Nice, o Anantara Plaza Nice Hotel - A Leading Hotel of the World oferece quartos com ar-condicionado, academia, Wi-Fi gratuito e terraço. Este hotel 5 estrelas oferece serviço de quarto e recepção 24 horas. Você pode desfrutar de pratos mediterrâneos e frutos do mar no restaurante ou tomar um coquetel no bar.
+                                            Todas as unidades possuem área de estar. Com banheiro privativo com chuveiro e produtos de banho gratuitos, algumas unidades do Anantara Plaza Nice Hotel - A Leading Hotel of the World também oferecem vista do mar. Todos os quartos incluem TV de tela plana e secador de cabelo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pontos_turisticos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_pontos_turisticos/1.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">The INSIDE Track Monaco F1</h5>
+                                        <p>As emoções do Grande Prêmio de Mônaco são conhecidas em todo o mundo, mas quando a corrida termina, o circuito permanece. Dê uma olhada na pista completa durante este passeio a pé que permanece na primeira marcha. Você percorrerá todo o circuito de 3,3 km, então use sapatos confortáveis. Ao percorrer a famosa pista, seu guia contará histórias sobre a história da corrida e seus concorrentes.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_pontos_turisticos/2.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Casino Monte Carlo</h5>
+                                        <p>O Cassino Monte-Carlo está no distrito de Monte-Carlo, em Mônaco, daí como recebeu seu nome. Mônaco em si está localizado no sudeste da França, dentro de uma região conhecida como Riviera Francesa. Apesar de estar totalmente cercado pela França, Mônaco é, na verdade, seu próprio país independente. O segundo menor do mundo, de fato, depois do Vaticano. Convenientemente, o cassino fica entre o Hotel de Paris e o Café Paris.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_pontos_turisticos/3.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Porto Hercules</h5>
+                                        <p>
+                                            O Porto Hercules de Mônaco, conhecido localmente como Port Hercule, é uma deslumbrante marina localizada no coração do Principado de Mônaco, na Riviera Francesa. É famoso por ser um dos portos mais exclusivos e luxuosos do mundo. O porto abriga iates espetaculares pertencentes a magnatas, celebridades e membros da realeza</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_pontos_turisticos/4.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Jardim Japones</h5>
+                                        <p>O Jardim Japonês de Mônaco é uma serena e encantadora área verde projetada em estilo japonês, situada no coração do Principado de Mônaco. Este jardim oferece aos visitantes uma experiência tranquila e contemplativa, com uma paisagem exuberante que incorpora elementos típicos da estética japonesa, como pontes, lagos, lanternas de pedra e uma variedade de plantas orientais</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_pontos_turisticos/5.webp">
+                                        <h5 class="text-colored fw-bold mt-2">Praia Larvotto</h5>
+                                        <p>O Jardim Japonês de Mônaco é uma serena e encantadora área verde projetada em estilo japonês, situada no coração do Principado de Mônaco. Este jardim oferece aos visitantes uma experiência tranquila e contemplativa, com uma paisagem exuberante que incorpora elementos típicos da estética japonesa, como pontes, lagos, lanternas de pedra e uma variedade de plantas orientais</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_pontos_turisticos/6.webp">
+                                        <h5 class="text-colored fw-bold mt-2">Coleção de carros do Príncipe Rainier III</h5>
+                                        <p>riqueza e suas influências neste segmento ajudou Mônaco a permanecer na vanguarda da excelência automotiva, onde seu falecido governante, Príncipe Rainier III, se tornou um apaixonado pelos veículos e montou sua própria coleção, que agora ganhou um museu. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_pontos_turisticos/place-centrale-de-la.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Metropole Shopping</h5>
+                                        <p>O Jardim Japonês de Mônaco é uma serena e encantadora área verde projetada em estilo japonês, situada no coração do Principado de Mônaco. Este jardim oferece aos visitantes uma experiência tranquila e contemplativa, com uma paisagem exuberante que incorpora elementos típicos da estética japonesa, como pontes, lagos, lanternas de pedra e uma variedade de plantas orientais</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"  src="/images/img_pontos_turisticos/Vista-de-Mônaco-do-Jardim-Exotique.png">
+                                        <h5 class="text-colored fw-bold mt-2">Jardim exotico</h5>
+                                        <p>O Metropole Shopping em Mônaco é uma joia de elegância e luxo, oferecendo uma experiência de compras única. Este espaço deslumbrante e espaçoso está localizado no coração de Monte Carlo, apresentando uma arquitetura refinada e uma atmosfera que reflete o estilo sofisticado associado a Mônaco.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-labe fw-bold text-colored">Seu nome:</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">Seu E-mail:</label>
+                                    <input type="email id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional):</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                    <textarea id="mensagem" class="form-control" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes Sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço</h3>
+                                <p>
+                                    Rua Teste Exemplo n 123 Bairro bootstrap,Monaco
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
